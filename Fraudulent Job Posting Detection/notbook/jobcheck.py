@@ -11,7 +11,7 @@ import pandas as pd
 df=pd.read_csv("/content/fake_job_postings.csv", engine='python', on_bad_lines='skip')
 df.head()
 
-!pip install ydata-profiling
+
 from ydata_profiling import ProfileReport
 
 profile = ProfileReport(df, explorative=True)
