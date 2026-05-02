@@ -7,7 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1c605laVspCj3L6xKpfeb-EqxA2y4OTpc
 """
 
-
 import pandas as pd
 df=pd.read_csv("/content/fake_job_postings.csv", engine='python', on_bad_lines='skip')
 df.head()
